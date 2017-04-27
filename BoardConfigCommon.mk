@@ -131,6 +131,9 @@ TARGET_RIL_VARIANT := caf
 # SDClang
 TARGET_USE_SDCLANG := true
 
+# ROOT
+ DEFAULT_ROOT_METHOD := magisk
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/lge/v4xx-common/sepolicy
